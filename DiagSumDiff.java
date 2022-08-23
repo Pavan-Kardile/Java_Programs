@@ -27,6 +27,7 @@ public static void main(String[] args)
             a[i][j]=scan.nextInt();
         }
     }
+    System.out.println("The absolute difference is:");
     System.out.print(diagonalDiff(a));
 }
 }
